@@ -6,7 +6,8 @@ Terraform Project Documentation: Launching VPC with Subnets, EC2 Instances, and 
 
 2. Project Overview
 
- The project aims to automate the provisioning of AWS infrastructure using Terraform, facilitating the deployment of a scalable and reliable architecture for hosting applications. The key components of the project include:
+    The project aims to automate the provisioning of AWS infrastructure using Terraform, facilitating the deployment of a scalable and reliable architecture for hosting applications. The key components of the 
+    project include:
 
   Creation of VPC with appropriate CIDR block
   Creation of two subnets within the VPC: public and private
