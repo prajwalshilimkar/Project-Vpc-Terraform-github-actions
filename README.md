@@ -8,11 +8,11 @@ Terraform Project Documentation: Launching VPC with Subnets, EC2 Instances, and 
 
  The project aims to automate the provisioning of AWS infrastructure using Terraform, facilitating the deployment of a scalable and reliable architecture for hosting applications. The key components of the project include:
 
-    Creation of VPC with appropriate CIDR block
-    Creation of two subnets within the VPC: public and private
-    Launching EC2 instances within the subnets
-    Configuring an Application Load Balancer (ALB) to distribute incoming traffic to the EC2 instances
-    Modularization of Terraform code for better organization and reuse
+  Creation of VPC with appropriate CIDR block
+  Creation of two subnets within the VPC: public and private
+  Launching EC2 instances within the subnets
+  Configuring an Application Load Balancer (ALB) to distribute incoming traffic to the EC2 instances
+  Modularization of Terraform code for better organization and reuse
 
 3. Architecture Diagram
 
@@ -21,10 +21,10 @@ Terraform Project Documentation: Launching VPC with Subnets, EC2 Instances, and 
 
 The project is organized into several Terraform modules to encapsulate logical components and enable reuse across different environments. The modules include:
 
-  vpc: Responsible for creating the VPC and its associated components.
-  subnets: Creates the public and private subnets within the VPC.
-  ec2: Launches EC2 instances within the subnets.
-  alb: Configures the Application Load Balancer to distribute traffic to the EC2 instances.
+ vpc: Responsible for creating the VPC and its associated components.
+ subnets: Creates the public and private subnets within the VPC.
+ ec2: Launches EC2 instances within the subnets.
+ alb: Configures the Application Load Balancer to distribute traffic to the EC2 instances.
  
 5. GitHub Actions for CI/CD
 
